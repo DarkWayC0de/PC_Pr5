@@ -5,6 +5,7 @@ resultado:  .float 0.0
 
         .text
 main:
+
 ###reserva de stack nada más empezar el main
 addi $sp,$sp,-40
 sw $s0,20($sp)
